@@ -4,16 +4,13 @@ categorias('Veículos').
 categorias('Educação').
 
 % Serviços
-servico('Habilitação', 'Renovação da CNH ou Emissão da Segunda via da CNH').
-servico('Veículos', 'Licenciamento Anual (CRLV) ou Imposto sobre a Propriedade de Veículos Automotores (IPVA)').
-servicos('Educação', 'Programas Permanentes ou Direção Segura.').
+servico('Habilitação', 'Renovação da CNH', 'Emissão da Segunda via da CNH').
+servico('Veículos', 'Licenciamento Anual (CRLV)').
+servico('Veículos', 'Imposto sobre a Propriedade de Veículos Automotores (IPVA)').
+servicos('Educação', 'Programas Permanentes').
+servicos('Educação', 'Direção Segura').
 
-informacao('Renovação da CNH', "Para renovar sua CNH, você deve:
-1. Confirmar os seus dados no site do DETRAN.
-2. Agendar um exame toxicológico (Válido apenas para renovação de categorias C, D ou E).
-3. Marcar um exame médico no site do DETRAN
-4. Realizar a avaliação psicológica (Válido apenas para quem exerce atividade remunerada EAR).
-5. pagar a taxa de renovação e entregar os documentos necessário no posto do DETRAN.").
+informacao('Renovação da CNH', "Para renovar sua CNH, você deve agendar um exame médico, pagar a taxa de renovação e entregar os documentos necessário no posto do DETRAN.").
 informacao('Emissão da segunda via da CNH', "Para emitir a segunda via de documentos, é necessário pagar a taxa correspondente e solicitar a emissão no site do DETRAN ou presencialmente.").
 informacao('Licenciamento Anual (CRLV)', "O licenciamento anual do veículo pode ser realizado online através do site do DETRAN ou presencialmente, após o pagamento da taxa de licenciamento.").
 informacao('Imposto sobre a Propriedade de Veículos Automotores (IPVA)', "Para emitir a segunda via de documentos, é necessário pagar a taxa correspondente e solicitar a emissão no site do DETRAN, presencialmente.").
@@ -34,9 +31,7 @@ O DETRAN oferece os seguintes programas educacionais:
 - Programa direcionado a alunos, familiares e profissionais de educação das escolas públicas municipais de Ensino Fundamental.
 
 5. Na Medida (Parceria com a PERNOD RICARD BRASIL)
-- Programa direcionado a alunos matriculados na rede pública de ensino (Estadual e Municipal) dos Anos Finais do Ensino Fundamental e do Ensino Médio e/ou Técnico.
-
-Para saber sobre outras notícias relacionadas aos programas do DETRAN, acesse o site: https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/educacao/fichaservico/clubeBemTeVi").
+- Programa direcionado a alunos matriculados na rede pública de ensino (Estadual e Municipal) dos Anos Finais do Ensino Fundamental e do Ensino Médio e/ou Técnico.").
 informacao('Direção Segura', "A Operação Direção Segura (atualmente sob o Decreto 58.881/2013) consiste em uma das ações instituídas pela Secretaria de Planejamento e Desenvolvimento Regional, a partir do Decreto 61.442/2015, o qual criou o Comitê Paulista de Ações para a Segurança Viária, com o objetivo de identificar, propor, coordenar, implementar e executar medidas e ações que visam ao trânsito seguro no Estado de São Paulo.
 
 Sob a coordenação do DETRAN-SP, ações de Educação para o Trânsito e de Fiscalização, preconizadas pela ODS, constituem-se em um conjunto de alternativas para a redução de acidentes de trânsito provocados pela ingestão de álcool.
