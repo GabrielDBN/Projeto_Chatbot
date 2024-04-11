@@ -110,4 +110,5 @@ chat :-
     read(Input),
     ( Input = sair ->
         write('Ate mais!'), nl, !, fail;
+      fail
     ).
