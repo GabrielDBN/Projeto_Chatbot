@@ -6,9 +6,9 @@ categorias('Educação').
 % Serviços
 servico('Habilitação', ['Renovação da CNH, Emissão da segunda via da CNH']).
 servico('Veículos', ['Licenciamento Anual (CRLV), Imposto sobre a Propriedade de Veículos Automotores (IPVA)']).
-servico('Educação', ['Programas Permanentes, Direção Segura.']).
+servico('Educação', ['Programas permanentes, Direção Segura.']).
 
-informacao('Renovação da CNH', "Para renovar sua CNH, você deve:
+informacao('Renovação da CNH', 'Para renovar sua CNH, você deve:
 
 1. Confirmar os seus dados no site do DETRAN.
 2. Agendar um exame toxicológico (Válido apenas para renovação de categorias C, D ou E).
@@ -18,21 +18,31 @@ informacao('Renovação da CNH', "Para renovar sua CNH, você deve:
 
 Após completar essas etapas a sua CNH em versão digital será disponibilizada em um prazo de até 3 dias úteis.
 Para a sua CNH física, ela será enviada para o seu endereço cadastrado em até 14 dias úteis.
-Para mais informações sobre as etapas e acompanhamento do processo, acesse o site https://detran.sp.gov.br/wps/portal/portaldetran/cidadao/habilitacao/home").
+Para mais informações sobre as etapas e acompanhamento do processo, acesse o site https://detran.sp.gov.br/wps/portal/portaldetran/cidadao/habilitacao/home').
 
-informacao('Emissão da segunda via da CNH', "Para emitir a segunda via de documentos você deve:
+informacao('Emissão da segunda via da CNH', 'Para emitir a segunda via de documentos você deve:
 
 1. Confirmar os dados no site do DETRAN ou ir em uma unidade de atendimento com os documentos solicitados.
 2. Realizar o pagamento de taxa ao DETRAN-SP em algum banco conveniado ou nas casas lotéricas.
 
 Após completar essas etapas a sua CNH em versão digital será disponibilizada em um prazo de até 3 dias úteis.
-Para a sua CNH física, ela será enviada para o seu endereço cadastrado em até 14 dias úteis.").
+Para a sua CNH física, ela será enviada para o seu endereço cadastrado em até 14 dias úteis.').
 
-informacao('Licenciamento Anual (CRLV)', "O licenciamento anual do veículo pode ser realizado online através do site do DETRAN ou presencialmente, após o pagamento da taxa de licenciamento.").
+informacao('Licenciamento Anual (CRLV)', 'O licenciamento anual do veículo é realizado de forma online (CRLV-e).
 
-informacao('Imposto sobre a Propriedade de Veículos Automotores (IPVA)', "Para emitir a segunda via de documentos, é necessário pagar a taxa correspondente e solicitar a emissão no site do DETRAN, presencialmente.").
+Siga os passos abaixo para fazer a emissão do CRLV:
+1. Acesse o site da secretaria da fazenda para fazer a consulta de débitos pendentes, como multas, taxa de licenciamento, pagamento de IPVA e DPVAT.
+- Realize uma consulta no site do DETRAN se o seu veículo possui alguma restrição/bloqueio.
 
-informacao('Programas Permanentes', "As atividades propostas em cada programa educacional do DETRAN-SP oferece oferece iniciativas e campanhas educativas para que os participanetes adotem comportamentos seguros e orientam os participantes, sejam eles crianças ou adultos, a se posicionarem de maneira crítica, responsável e construtiva nas diferentes situações sociais que envolvem o contexto do trânsito.
+2. Pague a taxa de emissão do novo CRLV-e.
+- Com o número Renavam do veículo em mãos, vá até um dos bancos conveniados ou em uma casa lotérica para realizar o pagamento da taxa
+
+3. Emissão digital do documento.
+- 24 horas após o pagamento do licenciamento, DPVAT e eventuais débitos, você poderá ter acesso ao documento por meio de download no portal do DETRAN ou pelo aplicativo CDT - Carteira Digital de Trânsito').
+
+informacao('Imposto sobre a Propriedade de Veículos Automotores (IPVA)', 'A Secretaria da Fazenda é responsável pela arrecadação do IPVA, para mais informações acesse: https://portal.fazenda.sp.gov.br/servicos/ipva').
+
+informacao('Programas permanentes', 'As atividades propostas em cada programa educacional do DETRAN-SP oferece oferece iniciativas e campanhas educativas para que os participanetes adotem comportamentos seguros e orientam os participantes, sejam eles crianças ou adultos, a se posicionarem de maneira crítica, responsável e construtiva nas diferentes situações sociais que envolvem o contexto do trânsito.
 
 O DETRAN oferece os seguintes programas educacionais:
 
@@ -51,9 +61,9 @@ O DETRAN oferece os seguintes programas educacionais:
 5. Na Medida (Parceria com a PERNOD RICARD BRASIL)
 - Programa direcionado a alunos matriculados na rede pública de ensino (Estadual e Municipal) dos Anos Finais do Ensino Fundamental e do Ensino Médio e/ou Técnico.
 
-Para saber sobre outras notícias relacionadas aos programas do DETRAN, acesse o site: https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/educacao/fichaservico/clubeBemTeVi").
+Para saber sobre outras notícias relacionadas aos programas do DETRAN, acesse o site: https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/educacao/fichaservico/clubeBemTeVi').
 
-informacao('Direção Segura', "A Operação Direção Segura (atualmente sob o Decreto 58.881/2013) consiste em uma das ações instituídas pela Secretaria de Planejamento e Desenvolvimento Regional, a partir do Decreto 61.442/2015, o qual criou o Comitê Paulista de Ações para a Segurança Viária, com o objetivo de identificar, propor, coordenar, implementar e executar medidas e ações que visam ao trânsito seguro no Estado de São Paulo.
+informacao('Direção Segura', 'A Operação Direção Segura (atualmente sob o Decreto 58.881/2013) consiste em uma das ações instituídas pela Secretaria de Planejamento e Desenvolvimento Regional, a partir do Decreto 61.442/2015, o qual criou o Comitê Paulista de Ações para a Segurança Viária, com o objetivo de identificar, propor, coordenar, implementar e executar medidas e ações que visam ao trânsito seguro no Estado de São Paulo.
 
 Sob a coordenação do DETRAN-SP, ações de Educação para o Trânsito e de Fiscalização, preconizadas pela ODS, constituem-se em um conjunto de alternativas para a redução de acidentes de trânsito provocados pela ingestão de álcool.
 
@@ -75,10 +85,10 @@ Funcionamento da Operação
 
 1. Sendo registrado o índice de alcoolemia até 0,33mg/L no bafômetro, o condutor será multado, terá a CNH apreendida e veículo retido. Posteriormente, será instaurado processo de suspensão de 1 ano de validade de sua CNH.
 
-2. Sendo registrado o índice de alcoolemia a partir de 0,34mg/ L (inclusive) no bafômetro aplica-se todos os procedimentos anteriores e está configurado crime de trânsito (art. 306 CTB). Na recusa, se for elaborado laudo médico positivo de embriaguez, o condutor será preso em flagrante pela autoridade policial, sendo fixado valor de fiança.").
+2. Sendo registrado o índice de alcoolemia a partir de 0,34mg/ L (inclusive) no bafômetro aplica-se todos os procedimentos anteriores e está configurado crime de trânsito (art. 306 CTB). Na recusa, se for elaborado laudo médico positivo de embriaguez, o condutor será preso em flagrante pela autoridade policial, sendo fixado valor de fiança.').
 
 % Programas
-programa('Clube do Bem-te-vi', "O Programa:
+programa('Clube do Bem-te-vi', 'O Programa:
 Criado em 1990, O Clube do Bem-te-vi é um programa educativo de trânsito coordenado e desenvolvido pela Diretoria de Educação para o Trânsito e Fiscalização do Detran-SP em parceria com a Polícia Militar do Estado de São Paulo, que tem a finalidade de educar para o trânsito as crianças dos Anos Iniciais do Ensino Fundamental do Estado de São Paulo, e deve ser solicitado pelos Municípios.
 
 Objetivos:
@@ -94,15 +104,195 @@ Após as palestras, os alunos recebem Cartilhas Educativas de Trânsito com as pri
 Junto com esse material, também são oferecidos uma Carteira de Habilitação Mirim e um Talão de Multas Mirim para que os alunos conscientizem as pessoas de seu convívio social e multipliquem os conhecimentos adquiridos, inclusive sobre os cuidados que devem ter consigo e com as outras pessoas quando estiverem utilizando as vias públicas como pedestres, ciclistas ou passageiros, contribuindo para a formação de uma consciência cidadã.
 
 Encerramento:
-Ao final dos trabalhos, geralmente no último dia da equipe de policiais no município, é realizada uma solenidade de encerramento, com a participação dos alunos das escolas envolvidas, além da presença de autoridades locais. As escolas participantes podem fazer apresentações voltadas ao tema educação para o trânsito (teatro, mímica, música, dança, entre outros). Ainda, há uma premiação de trabalhos educativos por faixa etária.").
+Ao final dos trabalhos, geralmente no último dia da equipe de policiais no município, é realizada uma solenidade de encerramento, com a participação dos alunos das escolas envolvidas, além da presença de autoridades locais. As escolas participantes podem fazer apresentações voltadas ao tema educação para o trânsito (teatro, mímica, música, dança, entre outros). Ainda, há uma premiação de trabalhos educativos por faixa etária.').
 
-programa('Cidadania em Movimento', 'Programa direcionado a educadores.').
+programa('Cidadania em Movimento', 'O Detran-SP em parceria com a Fundação Grupo Volkswagen desenvolve desde 2019 uma política pública de caráter socioeducativa, com foco em temas como acidentologia e prevenção a acidentes viários, planejamento urbano, cidades inteligentes, criativas e sustentáveis, meios de transporte, entre outras questões.
 
-programa('Criança Segura no Trânsito', 'Programa dedicado a crianças e adolecentes até 14 anos de idade.').
+O Programa será composto por três cursos on-line e gratuitos, complementares entre si e com carga horária de 6 horas cada um.
 
-programa('Educação Viária é Vital', 'Programa direcionado a alunos, familiares e profissionais de educação das escolas públicas municipais de Ensino Fundamental.').
+1. A formação dos educadores
 
-programa('Na Medida', 'Programa direcionado a alunos matriculados na rede pública de ensino (Estadual e Municipal) dos Anos Finais do Ensino Fundamental e do Ensino Médio e/ou Técnico.').
+Público-alvo:
+O curso capacitará/formará educadores (professores, gestores, coordenadores e orientadores) para atuarem em temas ligados à mobilidade urbana, incluindo conteúdos para jovens do Ensino Médio e/ou Educação Profissional Técnica de Nível Médio que dialogam com as áreas do conhecimento Linguagens, Ciências Humanas, Ciências da Natureza e Matemática.
+
+- Metodologia -
+A proposta é disponibilizar aos educadores conteúdos formativos e ferramentas para a construção desses saberes em sala de aula, por meio do planejamento e desenvolvimento de projetos interdisciplinares, abordando temáticas que permitem a atuação protagonista dos estudantes com o meio em que vivem.
+
+A trilha pedagógica é composta por três cursos on-line complementares entre si.
+
+Os conteúdos são apresentados em forma de videoaulas, e trazem orientações alinhadas às propostas da BNCC. Também são disponibilizados na plataforma materiais complementares e referências bibliográficas, proporcionando o aprofundamento dos assuntos tratados em cada um dos cursos.
+
+Os cursos são:
+- Meios de transporte: desenvolvimento histórico e particularidades de cada um;
+- Soluções inovadoras para um problema urbano: mobilidade;
+- Sustentabilidade no transporte: gestão e redução de impacto no meio ambiente.
+
+Ao percorrer a trilha dos cursos, será apresentado o passo a passo para o planejamento de projetos e como torná-los interdisciplinares, identificando quais competências e habilidades de cada área de conhecimento poderão ser relacionadas.
+
+- Municípios Participantes -
+
+O Programa “Cidadania em Movimento” foi implementado em 2019 em São Caetano do Sul.
+
+A partir de 2020 sua expansão será para os municípios que tenham maior índice de acidentes com crianças e jovens de 0 a 17 anos, de acordo com os dados do INFOSIGA SP - Sistema de Informações Gerenciais de Acidentes de Trânsito do Estado de São Paulo.
+
+- O Projeto em números – 2019 -
+
+Educadores capacitados: 33
+Escolas participantes: 01
+Alunos participantes: 490
+Municípios participantes: 01
+
+Ainda em 2019, tivemos outras ações educativas através do Programa.
+
+2. Palestra para os funcionários do DETRAN-SP
+
+Público Alvo:
+Funcionários do DETRAN-SP
+
+Local:
+Auditório da Sede do DETRAN-SP (Com transmissão via redes sociais)
+Rua João Brícola, 32 - 4º andar - Centro - São Paulo-SP
+
+- Público participante -
+10.616 pessoas no auditório e participantes on-line
+
+3. Palestra de conscientização de alunos
+
+Público Alvo:
+Alunos da Educação Profissional Técnica de Nível Médio
+
+Conteúdo programático:
+A dimensão global da violência no trânsito;
+Fatores de risco e fragilidade do corpo: beber e dirigir, distrações;
+Atitudes de segurança: cinto de segurança, airbag, capacete etc.;
+Segurança no trânsito é uma responsabilidade coletiva.
+
+Local:
+ETEC – JORGE STREET - São Caetano do Sul-SP').
+
+programa('Criança Segura no Trânsito', 'O Detran-SP, sob a coordenação da Diretoria de Educação para o Trânsito e Fiscalização, em parceria com a Organização Criança Segura, vem ampliando a implementação do Programa de Educação para o Trânsito na Rede Pública de Ensino com o apoio do Projeto “CRIANÇA SEGURA no Trânsito”.
+O Projeto promove a capacitação/formação de multiplicadores para a prevenção de acidentes de trânsito com crianças e adolescentes até 14 anos por meio do curso “CRIANÇA SEGURA no Trânsito Online”, com cessão de uso de materiais educativos em versão digital.
+
+- Objetivo -
+O objetivo do Projeto é desenvolver trabalhos preventivos no espaço escolar a partir de uma abordagem socioeducativa que contribua para o exercício da cidadania em respeito às especificidades do trânsito e para a adoção de comportamento mais adequado e solidário. Por meio do curso CRIANÇA SEGURA no Trânsito Online é fornecida formação, capacitação e aprimoramento de multiplicadores para a prevenção de acidentes viários com crianças e adolescentes.
+
+A afirmação da segurança viária e as atitudes preventivas, além de resultarem em um trânsito mais solidário, imprimem notório impacto na redução do número de mortes e sequelas por acidentes ocasionados por transportes terrestres.
+
+- O Curso -
+O curso CRIANÇA SEGURA no Trânsito Online foi desenvolvido para ser realizado totalmente a distância (online) e é constituído por 8 aulas de 3h de duração cada, totalizando 60h, sendo 30h destinadas ao conteúdo e às atividades e 30h às ações voltadas à prática de prevenção de acidentes.
+
+O conteúdo do curso fornece informações, dados e práticas e incentiva os profissionais das áreas de educação e trânsito a realizar ações educativas, promover a cultura de prevenção de acidentes e a mudança de comportamento. Para desenvolver o conteúdo, os participantes utilizam textos, pesquisas, estatísticas, vídeos educativos, fóruns, leituras e discussões via chat. A proposta é explorar as perspectivas e as possibilidades de ações efetivas para a transformação da realidade vigente.
+
+Durante as 8 aulas, os participantes conhecem instrumentos de diagnóstico e, neste processo, são incentivados a adequar os temas estudados às suas realidades. Para concluir o curso e obter o Certificado, os multiplicadores são solicitados a desenvolver atividades práticas de intervenção a serem executadas em suas próprias comunidades.
+
+Certificado: a certificação computará a carga horária do curso em EAD mais as horas das atividades a serem desenvolvidas e registradas no plano de ação, totalizando 60h. Serão certificados aqueles que obtiverem aproveitamento satisfatório no curso, auferido por meio de participação nas atividades propostas no ambiente virtual de aprendizagem e pelo envio do plano de ação e do relatório referente à execução de sua ação mobilizadora, que deverá ser realizada dentro do período do curso.
+
+- Didática -
+Parte teórica (aulas 1 a 4) e parte prática (aulas 5 a 8), contendo:
+
+Atividades assíncronas: aquelas realizadas em horários e dias definidos pelo próprio participante, como elaboração de textos, participação em fóruns, leituras e audiência de vídeos educativos.
+
+Atividades Síncronas: são realizadas por todos os integrantes ao mesmo tempo, como a participação em discussões realizadas via chat.
+
+- Público-alvo -
+Professores (e/ou equipe pedagógica), profissionais do trânsito e pessoas interessadas com capacidade multiplicadora.
+
+Alunos (crianças e jovens) dos anos iniciais e finais do ensino fundamental, além de seus respectivos familiares e amigos.
+
+- Impactos esperados -
+Com o Projeto, pretende-se contribuir para a formação de pedestres e futuros condutores conscientes e responsáveis pela segurança viária, individual e coletiva, com vistas a reduzir o número de mortes e sequelas por acidentes, bem como a aumentar a qualidade de vida, o respeito ao outro, ao bem-estar coletivo e à corresponsabilidade social.').
+
+programa('Educação Viária é Vital', '- O Programa -
+O Detran-SP, sob a coordenação da Diretoria de Educação para o Trânsito e Fiscalização, em parceria com a FUNDACIÓN MAPFRE, desenvolve o Programa “Educação Viária é Vital” desde 2015.
+
+O Programa “Educação Viária é Vital” chegou ao Brasil em 2004 e, desde então, vem se consolidando como uma ação educativa interessada em incentivar a pesquisa e a compreensão do trânsito a partir da ótica das relações humanas no contexto da circulação pelos espaços públicos.
+
+O Programa atuou diretamente com os educadores da rede pública (professores e coordenadores pedagógicos), fomentando a realização de projetos que favorecessem práticas de convivência harmoniosa no trânsito.
+
+A missão última do Programa é reduzir os índices de acidentes de trânsito por meio de ações educativas que primem pela adoção de comportamentos básicos para um deslocamento seguro, de maneira que crianças e adolescentes possam adquirir hábitos que contribuam para a formação de cidadãos mais atentos, conscientes e respeitosos em relação à segurança viária.
+
+Para tanto, durante o desenvolvimento do Programa, foram fornecidos materiais didáticos de apoio e orientação para a elaboração de projetos escolares que foram desenvolvidos pelos educadores, em conjunto com os alunos.
+
+- Objetivos -
+O programa se propôs a:
+
+•  Envolver os alunos em observação, análise e crítica das condições de circulação dentro da escola, na comunidade do entorno (bairro) e na cidade;
+
+•  Promover ações solidárias, participativas e responsáveis entre os alunos envolvidos, que incentivem a circulação segura e harmoniosa dentro e fora da escola;
+
+•  Favorecer a adoção de hábitos e atitudes seguras e solidárias na circulação destes alunos nos espaços da escola, da comunidade e na cidade;
+
+•  Dar visibilidade a projetos escolares que se destaquem na implementação de ações educativas sobre a circulação viária.
+
+- Público-alvo -
+O Programa “Educação Viária é Vital” foi direcionado a alunos, familiares e profissionais de educação das escolas públicas municipais de Ensino Fundamental.
+
+- Metodologia -
+A educação viária para alunos é um conjunto de técnicas e conhecimentos teóricos e práticos, desenvolvidos no Programa por meio de dois momentos distintos:
+
+1º) Capacitação presencial e a distância de profissionais de educação da rede municipal de ensino para o desenvolvimento de projetos educacionais, totalizando 40 horas de capacitação;
+
+2º) Desenvolvimento prático dos projetos educacionais, em conjunto com os alunos.
+
+A capacitação dos educadores ocorrerá em duas fases, presencial e à distância. A capacitação presencial terá turmas compostas de até 36 participantes, carga horária de 4 (quatro) horas e será no município.
+
+A capacitação a distância terá o caráter complementar de apoio às atividades a serem desenvolvidas, com carga horária de 36 (trinta e seis) horas, incluindo o tempo investido na sistematização dos projetos pela Ficha de Inscrição, totalizando 40 (quarenta) horas de capacitação.
+
+- Impactos esperados -
+Com o Programa “Educação Viária é Vital”, pretendeu-se contribuir para a formação de cidadãos conscientes e responsáveis pela segurança individual e coletiva, resultando em:
+
+•  Redução de mortes, deficiências físicas e outras implicações para as vítimas de acidentes de trânsito, suas famílias e outros dependentes;
+
+•  Redução dos custos com saúde no tratamento e reabilitação das vítimas;
+
+•  Promoção da adoção de comportamentos e de ambientes seguros e saudáveis;
+
+•  Aumento da qualidade de vida, respeito ao outro e ao bem-estar coletivo, assim como da corresponsabilidade social;
+
+•  Preservação de vidas, prioritariamente as de crianças e jovens, principais vítimas no trânsito;
+
+•  Conhecimento, respeito e ação em favor dos Direitos Humanos.
+
+- Municípios Participantes -
+O Programa “Educação Viária é Vital” foi implementado nos seguintes municípios paulistas:
+
+Assis, Avaré, Barretos, Bebedouro, Bom Jesus dos Perdões, Cabreúva, Catanduva, Dois Córregos, Ilha Solteira, Itararé, Lençóis Paulista, Luiziânia, Matão, Mococa, Mogi Guaçu, Mogi Mirim, Ourinhos, Pariquera-Açu, Pederneiras, Registro, Rio Claro, Saltinho, São Carlos, São José do Rio Pardo, São José do Rio Preto, Taquarituba.
+
+- O Projeto em números - 2015 a 2019 -
+Educadores capacitados: 3.350
+Escolas capacitadas: 799
+Alunos participantes: 93.533
+Municípios participantes: 26
+
+- Encontro Nacional do Programa Educação Viária é Vital -
+Ao final de cada ano, a Fundação Mapfre promove o Encontro Nacional do Programa, onde há a apresentação dos Projetos de Destaque de cada município participante, que concorrem a uma premiação.').
+
+programa('Na Medida', '- O Projeto -
+Em 2015,o Detran-SP, sob a coordenação da Diretoria de Educação para o Trânsito e Fiscalização, em parceria com a PERNOD RICARD BRASIL  implementou o Projeto “NA MEDIDA, que promoveu nas escolas ações de educação para o trânsito com foco na sensibilização e na informação de estudantes sobre os riscos existentes na relação entre o uso de substâncias psicoativas e o trânsito, por meio de Oficinas Temáticas desenvolvidas em instituições de ensino.
+
+- Objetivo -
+O objetivo do “NA MEDIDA” é levar a discussão sobre consumo responsável de álcool e comportamento seguro no trânsito para as escolas.
+
+- Público-alvo -
+O Projeto teve como público-alvo os alunos matriculados na rede pública de ensino (Estadual e Municipal) dos Anos Finais do Ensino Fundamental e do Ensino Médio e/ou Técnico.
+
+- Metodologia -
+O Projeto é desenvolvido por meio de Oficinas Temáticas ministradas em sala de aula, com participação direta dos adolescentes, e que englobaram:
+
+• Atividades estruturadas, que fornecem um conjunto de informações relevantes sobre o álcool e o trânsito;
+
+• Reflexão sobre as diferentes relações que podem ser estabelecidas com as substâncias entorpecentes;
+
+• Um processo de ensino-aprendizagem que se utiliza de dramatizações, jogos de grupo, músicas e danças enquanto conjunto eficaz de ações articuladas para informar e sensibilizar os alunos;
+
+• Debate do tema “álcool e trânsito” de forma leve e informal, favorecendo que cada participante aprenda e reflita de forma prazerosa.
+
+A duração das Oficinas Temáticas é de 1 hora e 30 minutos (dois tempos de aula) para turmas com 25 alunos, em média.
+
+As Oficinas Temáticas foram ministradas por um trio de Educadores que atuaram simultaneamente nas instituições de ensino. Os Educadores são profissionais selecionados e capacitados pela PERNOD RICARD BRASIL para desenvolvimento da metodologia do Projeto “NA MEDIDA” nas escolas.
+
+- Impactos esperados -
+Com o Projeto “NA MEDIDA”, pretendeu-se contribuir para a formação de jovens cidadãos conscientes e responsáveis pela segurança individual e coletiva, resultando em eliminação das situações de uso de álcool e/ou de substâncias psicoativas seguidas de direção de veículos automotores e redução de mortes, deficiências físicas e outra
 
 % Regras
 opcoes_categorias :-
@@ -119,14 +309,6 @@ informacoes_servico(Servico) :-
     informacao(Servico, Informacao),
     format('Aqui está a informação que encontrei sobre ~w: ~n~w~n', [Servico, Informacao]).
 
-opcoes_programas :-
-    write('Aqui estão os programas disponíveis:'), nl,
-    forall(programa(Programa, _), format('~w~n', [Programa])).
-
-informacoes_programa(Programa) :-
-    programa(Programa, Informacao),
-    format('Aqui está a informação que encontrei sobre ~w: ~n~w~n', [Programa, Informacao]).
-
 % Interface simples de chat
 chat :-
     write('Olá, como posso ajudar? (Digite sair para encerrar)'), nl,
@@ -135,17 +317,19 @@ chat :-
     read(Input),
     ( Input = sair ->
         write('Até mais!'), nl, !, fail;
-        ( opcoes_servicos(Input) ->
-            true;
-            informacoes_servico(Input) ->
-            true;
-            ( Input = 'Direção Segura' ->
-                write('Gostaria de saber mais sobre algum programa do Direção Segura? Aqui estão as opções:'), nl,
-                opcoes_programas;
-                informacoes_programa(Input) ->
-                true;
-                write('Desculpe, não tenho informações sobre isso.'), nl
-            )
+        ( categorias(Input) ->
+            ( Input = 'Educação' ->
+                write('Você gostaria de saber mais sobre os Programas Permanentes ou sobre o Direção Segura?'), nl;
+                opcoes_servicos(Input)
+            );
+            ( Input = 'Programas Permanentes' ; Input = 'Direção Segura' ) ->
+            informacoes_servico(Input);
+            servico(Input, _) ->
+            informacoes_servico(Input);
+            programa(Input, _) ->
+            informacoes_programa(Input);
+            write('Desculpe, não tenho informações sobre isso.'), nl
         ),
         fail
     ).
+
