@@ -96,7 +96,8 @@ opcoes_servicos(Categoria) :-
     categorias(Categoria),
     servico(Categoria, Servicos),
     write('Aqui estao os servicos disponiveis para a categoria '), write(Categoria), write(':'), nl,
-    forall(member(Servico, Servicos), format('~w~n', [Servico])).
+    forall(member(Servico, Servicos), format('~w~n', [Servico])),
+    write('Para saber mais sobre, digite o nome do servico abaixo: '), nl.
 
 informacoes_servico(Servico) :-
     informacao(Servico, Informacao),
@@ -106,9 +107,21 @@ informacoes_servico(Servico) :-
 chat :-
     write('Ola, como posso ajudar? (Digite sair para encerrar)'), nl,
     opcoes_categorias,
-    repeat,
-    read(Input),
-    ( Input = sair ->
-        write('Ate mais!'), nl, !, fail;
-      fail
+    read(Categoria),
+    ( Categoria = 'Habilitacao' ->
+        opcoes_servicos(Categoria),
+        read(Servico),
+        informacoes_servico(Servico)
+    ; Categoria = 'Veiculos' ->
+        opcoes_servicos(Categoria),
+        read(Servico),
+        informacoes_servico(Servico)
+    ; Categoria = 'Educacao' ->
+        opcoes_servicos(Categoria),
+        read(Servico),
+        informacoes_servico(Servico)
+    ; Categoria = sair ->
+        write('Ate mais!'), nl, !, fail
+    ;   write('Desculpe, não tenho informações sobre isso.'), nl,
+        fail
     ).

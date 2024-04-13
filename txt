@@ -1,0 +1,16 @@
+% Interface simples de chat
+chat :-
+    write('Ola, como posso ajudar? (Digite sair para encerrar)'), nl,
+    opcoes_categorias,
+    read(Input),
+    ( Input = 'Habilitacao' ->
+        opcoes_servicos(Input)
+    ; Input = 'Veiculos' ->
+        opcoes_servicos(Input)
+    ; Input = 'Educacao' ->
+        opcoes_servicos(Input)
+    ; Input = sair ->
+        write('Ate mais!'), nl, !, fail
+    ;   write('Desculpe, não tenho informações sobre isso.'), nl,
+        fail
+    ).
