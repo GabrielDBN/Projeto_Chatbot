@@ -4,7 +4,7 @@ categorias('Veiculos').
 categorias('Educacao').
 
 % Servicos
-servico('Habilitacao', ['Renovao da CNH, Emissao da segunda via da CNH']).
+servico('Habilitacao', ['Renovacao da CNH, Emissao da segunda via da CNH']).
 servico('Veiculos', ['Licenciamento Anual (CRLV), Imposto sobre a Propriedade de Veiculos Automotores (IPVA)']).
 servico('Educacao', ['Programas permanentes, Direcao Segura.']).
 
